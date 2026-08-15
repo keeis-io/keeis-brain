@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "docmost": {
+      "command": "node",
+      "args": ["/srv/mcp/docmost-mcp/build/index.js"],
+      "env": {
+        "DOCMOST_API_URL": "http://localhost:3000/api",
+        "DOCMOST_EMAIL": "claude@keeis.local",
+        "DOCMOST_PASSWORD": "EDIT"
+      }
+    },
+    "atlassian": {
+      "type": "http",
+      "url": "https://mcp.atlassian.com/v1/mcp/authv2",
+      "headers": {
+        "Authorization": "EDIT: headless API token scheme per the Rovo MCP docs"
+      }
+    }
+  }
+}

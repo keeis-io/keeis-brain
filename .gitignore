@@ -1,0 +1,13 @@
+.env
+*.key
+*.pem
+credentials*
+.DS_Store
+node_modules/
+__pycache__/
+*.tmp
+
+# Third-party stuff and MCP hub secrets (live on the server only)
+server/mcp/docmost-mcp/
+server/mcp/.env
+server/publisher/mcp.headless.json

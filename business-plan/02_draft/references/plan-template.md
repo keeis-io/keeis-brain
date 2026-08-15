@@ -1,0 +1,12 @@
+# Plan structure (what an investor expects to find)
+
+1. Executive summary (half a page; written last)
+2. Problem (evidence of the pain; interview quotes if they exist)
+3. Solution (what the technology does and its real state: functional / pilot / idea)
+4. Market (reachable, calculated bottom-up)
+5. Business model (who pays, how much, at what recurrence)
+6. Traction & evidence (interviews, pilots, commitments — real only)
+7. Team (why the two of you)
+8. Financials (explicit assumptions, 12–18 month horizon)
+9. Ask & use of funds (only if asking for something concrete)
+10. Risks (the top three and how they're mitigated)
