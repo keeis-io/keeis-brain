@@ -58,3 +58,12 @@ Format: date — decision — reason — who.
   These three fill real gaps in Layer 3 without conflicting with the derive/activate pipeline
   model; the rest can be added later as single files when there's something real to put in
   them. — Kendall.
+
+- 2026-08-16 — Logged a third discovery hypothesis (informal microenterprise tax/CCSS/municipal
+  compliance in Costa Rica — `discovery/01_hypotheses/output/2026-08-16-hypothesis-formalizacion-microempresas.md`)
+  as an active parallel run, migrated from desk research captured in `files/`. This knowingly
+  exceeds `current-strategy.md`'s stated "max 2 fronts at a time" (currently `plates`
+  validation + the business plan for Erik) — accepted explicitly as a temporary parallel
+  exploration, not a resolved reprioritization. — Unrelated to plate recognition; needs a
+  deliberate human call (drop a front, formally add a third, or pause this one) before it
+  reaches `discovery/03_synthesis`. — Kendall + Isaac, pending explicit resolution.
