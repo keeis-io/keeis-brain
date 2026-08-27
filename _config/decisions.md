@@ -67,3 +67,24 @@ Format: date — decision — reason — who.
   exploration, not a resolved reprioritization. — Unrelated to plate recognition; needs a
   deliberate human call (drop a front, formally add a third, or pause this one) before it
   reaches `discovery/03_synthesis`. — Kendall + Isaac, pending explicit resolution.
+
+- 2026-08-26 — Promoted the consultative-sales-teams hypothesis (high-ticket B2B sales teams in
+  Costa Rica — `discovery/01_hypotheses/output/2026-08-26-hypothesis-consultative-sales-teams.md`)
+  to primary discovery front in `_config/current-strategy.md`, replacing `plates` (license-plate
+  recognition), which is paused, not disproven or discarded (`projects/plates/CONTEXT.md`). The
+  business plan for Erik (front #2) stays as-is and is explicitly decoupled from `plates`: Erik's
+  2026-08-12 ask was for a milestone-based plan, framed around `plates` only as the concrete
+  example on hand that day, not a requirement to keep that scope. The parallel microempresas
+  exploration (2026-08-16 entry above) is unaffected by this pivot and remains its own pending
+  resolution. — Two real data points already in hand for consultative-sales-teams (Mauricio
+  Castro/Eurohogar, Fernando Carazo/La Lima) vs. `plates` still lacking real interviews; Kendall's
+  explicit call to prioritize the front with live signal. — Kendall.
+
+- 2026-08-26 — Same day, later: also paused the informal-microenterprise-compliance hypothesis
+  (`discovery/01_hypotheses/output/2026-08-16-hypothesis-formalizacion-microempresas.md`),
+  superseding the "unaffected by this pivot" line in the entry immediately above. All company
+  discovery effort now sits on consultative-sales-teams alone; `plates` and microempresas are
+  both paused, not disproven, in `_config/current-strategy.md`. This also resolves the
+  2026-08-16 entry's open flag ("needs a deliberate human call... before it reaches
+  `discovery/03_synthesis`") — the call was to pause it, not promote it further. — Kendall's
+  explicit call: single-front focus on the hypothesis with live signal. — Kendall.
