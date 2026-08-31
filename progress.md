@@ -13,7 +13,7 @@ is a correct skeleton that hasn't run a single real flow yet.
 
 ## Done — local skeleton
 
-- [x] Complete folder structure: `inbox/`, `discovery/`, `business-plan/`,
+- [x] Complete folder structure: `ideas/`, `discovery/`, `business-plan/`,
   `meetings/` (stages 01→03, each with `output/`+`references/`), `projects/`, `outputs/`,
   `_config/`, `_reports/`, `server/`, `_archive/`.
 - [x] Layer 0/1: `CLAUDE.md` (agent rules) + `CONTEXT.md` (routing) at the root, and its own

@@ -17,7 +17,7 @@ approved payload). Every intermediate output is a file a human reviews.
   company as a meta-project). Code lives in its own repos.
 - `outputs/` — **Final output layer**: payloads by destination (`jira/`, `docmost/`), each
   with `approved/`, `receipts/`, `sent/`
-- `inbox/` — Raw ideas (capture only)
+- `ideas/` — Raw ideas (capture only)
 - `references/` — Company-wide external material (benchmarking, market research), capture only
 - `_reports/` — ProDesk cadence output (read-only for humans)
 - `server/` — ProDesk's role (backup publisher, Git hook, cron, jobs)
@@ -27,7 +27,7 @@ approved payload). Every intermediate output is a file a human reviews.
 
 1. Load only the context of the active stage or skill: its `CONTEXT.md`/`SKILL.md` and its listed Inputs.
 2. Write to the active stage's `output/`, or to the destination dictated by
-   `_config/output-catalog.md` when running `derive` (and to `inbox/` or
+   `_config/output-catalog.md` when running `derive` (and to `ideas/` or
    `_config/decisions.md` when asked).
 3. `_config/`, `references/` and `.claude/skills/` are read-only unless a human says otherwise.
 4. Runs: `YYYY-MM-DD-topic.md`; if they belong to a project, `project: <slug>` on the first line.

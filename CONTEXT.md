@@ -10,7 +10,7 @@
 | Onboarding a new project | skill `new-project` |
 | Status, specs, architecture, or canvas of a product | `projects/<slug>/` (company → `projects/keeis/`) |
 | Connected systems and credentials | `connections.md` |
-| Idea with no clear destination | `inbox/` (just save it) |
+| Idea with no clear destination | `ideas/` (just save it) |
 | External research with no clear pipeline yet (benchmarking, market scan) | `references/` (just save it) |
 | What the server's cadence produced | `_reports/` |
 

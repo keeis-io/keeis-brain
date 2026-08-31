@@ -10,7 +10,7 @@ There's always a human between the two.
 
 ```
 SOURCES                        DERIVATION                     FINAL OUTPUT           ACTIVATOR
-ideas ──▶ inbox/
+capture ──▶ ideas/
 talks ───▶ meetings/ 01→03 ──┐                   ┌─ documents ──▶ projects/<slug>/
 market ──▶ discovery 01→03 ──┼─▶ [derive] ───────┤   (specs/ architecture/ canvas/)
 business ─▶ biz-plan 01→03 ──┘   per catalog     └─ payloads ────▶ outputs/jira|docmost/ ─▶ [activate] ─▶ Jira/Docmost

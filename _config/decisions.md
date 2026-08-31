@@ -1,6 +1,12 @@
 # Decision log
 Format: date — decision — reason — who.
 
+- 2026-08-30 — Renamed `inbox/` to `ideas/` (folder + every cross-reference in `CLAUDE.md`,
+  `CONTEXT.md`, `progress.md`, `README.md`, `server/jobs/weekly-digest.md`, and the folder's own
+  `README.md`). — Requested directly; no reason beyond preference recorded. Left the 2026-08-14
+  entry below (`bandeja`→`inbox`) untouched — it documents what was decided that day, not what
+  the folder is called now. — Kendall.
+
 - 2026-08-14 — Adopted ICM (this Git repo, Umbrella form) as Keeis's working structure;
   Docmost becomes the publishing library for stable, already-approved documents. —
   Our workflows are sequential, reviewable, and repeatable (exactly the case the paper scopes for);
