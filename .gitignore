@@ -7,6 +7,9 @@ node_modules/
 __pycache__/
 *.tmp
 
+# Obsidian (local vault UI state — per-person, causes merge conflicts if tracked)
+.obsidian/
+
 # Third-party stuff and MCP hub secrets (live on the server only)
 server/mcp/docmost-mcp/
 server/mcp/.env
