@@ -1,5 +1,5 @@
 # Progress — keeis-brain
-Last updated: 2026-08-31
+Last updated: 2026-08-14
 
 Living log of the ICM brain's build-out. This isn't Layer 0-3 (business context): it's the
 state of the system itself. Update it as each step in `README.md` → "Startup sequence" closes,
@@ -20,16 +20,14 @@ is a correct skeleton that hasn't run a single real flow yet.
   `CONTEXT.md` in every pipeline.
 - [x] Layer 3 (`_config/`): `company.md`, `current-strategy.md`, `voice.md`, `decisions.md`,
   `invariant-rules.md`, `confidentiality-classification.md`, `glossary.md`, `output-catalog.md`
-  + 4 document templates (`spec`, `architecture`, `lean-canvas`, `bmc`). No payload templates —
-  Jira and Docmost were dropped 2026-08-31.
+  + 6 templates (`spec`, `architecture`, `lean-canvas`, `bmc`, `jira-tasks`, `docmost-page`).
 - [x] `references/` — company-wide external material (benchmarking, market research), capture only.
 - [x] Own skills in `.claude/skills/`: `derive`, `activate`, `new-project`.
 - [x] `projects/_template/` (onboarding mold) + `projects/keeis/` (company as meta-project) +
   `projects/plates/` (first product).
-- [ ] `outputs/<destination>/` — none configured; removed `outputs/jira/` and `outputs/docmost/`
-  2026-08-31 (both were empty, never used).
-- [x] `connections.md` and `server/README.md` — Git origin + digest cadence documented. No
-  publishing connector configured (Jira/Docmost dropped 2026-08-31).
+- [x] `outputs/jira/` and `outputs/docmost/` with `approved/` `receipts/` `sent/` subfolders.
+- [x] `connections.md` and `server/README.md` — connection architecture documented (two
+  identities: interactive laptops via OAuth/wisflux, headless bot via MrMartiniMo+API token).
 - [x] Decisions v1→v6 logged in `_config/decisions.md` (ICM, MCP, read-only cadence,
   transport-based publishing, final output layer with two verbs, English as internal language).
 
@@ -37,8 +35,8 @@ is a correct skeleton that hasn't run a single real flow yet.
 
 - [ ] `_config/company.md`: `[EDIT: last name/role]` for Kendall and Isaac, a one-line honest
   north star, other key relationships.
-- [ ] `connections.md`: ProDesk's Tailscale hostname, GitHub remote — still `[EDIT]`
-  placeholders. No publishing destination to configure until one is chosen (Jira/Docmost dropped).
+- [ ] `connections.md`: ProDesk's Tailscale hostname, Jira site and project key, GitHub
+  remote — all still `[EDIT]` placeholders.
 - [ ] `current-strategy.md`: zero hypotheses logged yet (the first one comes from
   `discovery/01_hypotheses`, which is still empty).
 - [ ] No pipeline has any runs: `discovery/`, `business-plan/`, `meetings/` — all three
@@ -49,30 +47,27 @@ is a correct skeleton that hasn't run a single real flow yet.
 | # | Step | Status |
 |---|---|---|
 | 1 | Git with the ProDesk as origin (`server/README.md`) | ☐ Not started — `keeis-brain/` has no `git init` |
-| 2 | External skills: clone `icm-architect` (RinDig) and `icm-scaffold`/`icm-sync` (ktnCodes) into `.claude/skills/` | ☐ Not started |
-| 3 | Digest cadence: test by hand ×2, then cron | ☐ Not started — depends on 1 |
-| 4 | Choose + wire up a publishing destination (replaces Jira/Docmost, dropped 2026-08-31) | ☐ Not started — no candidate picked yet |
+| 2 | Jira: Cloud + Rovo + Remote MCP enabled, per-person OAuth | ☐ Not started |
+| 3 | Server backup bot: MrMartiniMo built, `mcp.headless.json`, `publisher/run.sh` tested by hand ×2 | ☐ Not started |
+| 4 | External skills: clone `icm-architect` (RinDig) and `icm-scaffold`/`icm-sync` (ktnCodes) into `.claude/skills/` | ☐ Not started |
+| 5 | Full-system smoke test (derive → review → activate by session → repeat via server route) | ☐ Not started — depends on 1-4 |
+| 6 | Digest cadence: test by hand ×2, then cron | ☐ Not started — depends on 1-3 |
 
 ## Immediate next steps
 
-1. Fill in the `[EDIT]` placeholders in `_config/company.md` and `connections.md` (hostname, GitHub) —
+1. Fill in the `[EDIT]` placeholders in `_config/company.md` and `connections.md` (hostname, Jira, GitHub) —
    unblocks everything else and doesn't depend on infrastructure.
 2. `git init -b main` in `keeis-brain/`, first commit, decide the ProDesk remote (README
    step 1) — without this there's no sync between Kendall and Isaac.
-3. Stand up the ProDesk: bare repo + `post-receive` hook (`server/README.md` setup).
-4. First real pipeline run (likely candidate: `discovery/01_hypotheses`, since
+3. Stand up the ProDesk: bare repo + `post-receive` hook (`server/README.md` setup 1-3).
+4. Enable Jira (Cloud + Rovo + Remote MCP) — requires site admin, a prerequisite for
+   any real `activate`.
+5. First real pipeline run (likely candidate: `discovery/01_hypotheses`, since
    `current-strategy.md` points to it as the source of the first hypothesis) to validate the
-   document side of the circuit with real content.
-5. Pick a replacement publishing destination when needed, then wire it into `connections.md`,
-   `_config/output-catalog.md`, and the `activate` skill.
+   full circuit with real content before the formal smoke test.
 
 ## Log
 
-- 2026-08-31 — Dropped Jira and Docmost entirely (see `_config/decisions.md`): removed
-  `server/mcp/`, `server/publisher/`, `server/jobs/publisher.md`, `.mcp.json`, the
-  `jira-tasks`/`docmost-page` catalog rows and templates, and the empty `outputs/jira/`,
-  `outputs/docmost/` folders. `activate` and `new-project` now run local-only until a
-  replacement destination is chosen.
 - 2026-08-14 — Scaffolded the complete v5 skeleton (structure, config, own skills, project
   templates, output folders). Created this `progress.md` to track startup progress explicitly,
   separate from business context (`_config/`) and architectural decisions

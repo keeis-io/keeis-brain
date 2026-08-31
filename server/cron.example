@@ -3,3 +3,6 @@
 
 # Weekly digest (Monday 06:00). Schedule ONLY after testing it by hand twice.
 0 6 * * 1 cd /srv/keeis-brain && git pull --ff-only && claude -p "$(cat server/jobs/weekly-digest.md)" >> /var/log/keeis-digest.log 2>&1
+
+# Publisher backup (in case the hook didn't run): every 10 minutes
+*/10 * * * * /srv/keeis-brain/server/publisher/run.sh

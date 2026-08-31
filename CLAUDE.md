@@ -15,9 +15,8 @@ approved payload). Every intermediate output is a file a human reviews.
 - `discovery/` · `business-plan/` · `meetings/` — Pipelines (stages 01→03, human gates)
 - `projects/` — Projects with `specs/`, `architecture/`, `canvas/`. Includes `keeis/` (the
   company as a meta-project). Code lives in its own repos.
-- `outputs/` — **Final output layer**: payloads by destination, each with `approved/`,
-  `receipts/`, `sent/` (no destination configured today — Jira and Docmost were dropped,
-  see `_config/decisions.md`)
+- `outputs/` — **Final output layer**: payloads by destination (`jira/`, `docmost/`), each
+  with `approved/`, `receipts/`, `sent/`
 - `ideas/` — Raw ideas (capture only)
 - `references/` — Company-wide external material (benchmarking, market research), capture only
 - `_reports/` — ProDesk cadence output (read-only for humans)
