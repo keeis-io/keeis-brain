@@ -42,6 +42,11 @@ approved payload). Every intermediate output is a file a human reviews.
 10. Language: English is the internal working language for everything — docs, runs, and all
     future content. `_config/voice.md` still governs register (internal terse vs. investor-facing
     polish); that's a tone distinction now, not a language one.
+11. Navigation layer: when a run lands in a pipeline stage's `output/`, add a wikilink to it
+    from that branch's `MOC.md` in the same turn, with one line saying what it is. Wikilinks
+    live ONLY in `HOME.md` and `MOC.md` files — content files use relative markdown links, so
+    they stay readable outside Obsidian. A file with no link from its MOC is invisible in the
+    graph.
 
 ## Routing
 
