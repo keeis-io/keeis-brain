@@ -29,9 +29,9 @@
 - **Skin-in-the-game evidence** (Savoia, *The Right It*): none obtained yet. Both data points
   below are opinion/interest signals, not commitments (no time, money, data, or letter of intent
   secured).
-- **People to contact**: ~20 outreach emails sent, awaiting response. Two responses in so far —
+- **People to contact**: ~20 outreach emails sent, awaiting response. Three responses in so far —
   see "What we know today." [PENDING: no additional real names/organizations logged in this file
-  yet beyond the two below.]
+  yet beyond the three below.]
 
 ## What we know today
 
@@ -46,6 +46,38 @@
   point. Caveat: his own commercial team is two people — outside this hypothesis's segment mold,
   he doesn't have the pain being tested. Full notes:
   `../../../meetings/02_notes/output/2026-08-26-notes-fernando-carazo.md`.
+- **Negative signal — Carlos Salazar, manager, Purdy, Pérez Zeledón branch** (5 reps): the
+  strongest pushback so far, and it comes from inside the segment's own vertical (automotive).
+  Uses Salesforce daily; it logs that an interaction happened plus the rep's typed comment, but
+  "no queda la llamada completa" — so the content gap is **confirmed as a fact of the system**.
+  What isn't confirmed is that it hurts: asked directly, he has never had to dig into a
+  conversation the system didn't capture, and has lost no sale to missed follow-up. He supervises
+  by process (a contact-status panel), not by the monthly result, and runs a ~3-month onboarding
+  program that includes individual in-branch coaching. Asked what he'd want, he named "los dos
+  flancos" — a good system plus a **control mechanism over the people** — i.e. enforcement of
+  *whether* follow-up happened, not visibility into *what was said*. Full structure:
+  `../../02_interviews/output/2026-08-27-interview-carlos-salazar.md`.
+
+## What this does to the hypothesis's claims
+
+Three of the claims stated above now have direct contrary evidence from Carlos, and one nuance has
+data pointing both ways. Recorded here rather than rewritten into the claims — the human decides
+whether to revise the hypothesis:
+
+- "Lost sales can't be diagnosed" — contradicted at Purdy (no sale lost to follow-up failure).
+- "Supervise by the month's result, not by process" — contradicted at Purdy (process panel exists).
+- "Nobody can correct a new rep on what they did wrong" — contradicted at Purdy (individual
+  coaching inside a 3-month program). Mauricio's interview pointed the other way (group-only
+  training). **Split 1–1; this nuance is now the most contested claim in the hypothesis.**
+- **What survives across both interviews:** no system captures what was actually said. The open
+  question is no longer whether the gap exists — it does — but whether any manager experiences it
+  as a cost worth paying to remove. Carlos, asked directly, does not.
+- **On the riskiest assumption** ("the manager wants to *train*, not just *measure*"): Carlos lands
+  on measure. He invests in development, but when handed the opening he asked for compliance
+  control, not conversational coaching. One data point, not a verdict.
+- **New constraint:** Salesforce is an incumbent, already paid for, already occupying this
+  workflow. This is the concrete version of Fernando Carazo's "resembles tools already in use."
+  Any offer sits next to Salesforce and has to beat a panel the manager already finds adequate.
 
 ## What we still don't know — the thing that decides everything
 

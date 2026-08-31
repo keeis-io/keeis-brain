@@ -3,16 +3,25 @@
 ## Inputs
 - Layer 4: `../01_hypotheses/output/<current run>`
 - Layer 3: `references/interview-guide.md`
+- Layer 3: `references/segment-screener.md` — fixed 4-question instrument for screening touches
+  across multiple candidate segments, before committing to the 5-interview deep pass on one
 - Layer 4: raw notes the human leaves in `output/raw/`
 
 ## Process
-Two modes:
-(a) **Before**: generate an interview guide tailored to the segment (max 10–12 questions).
-(b) **After each interview**: structure the raw notes into facts, mentioned pains,
+Three modes:
+(a) **Screening**: shallow, comparable touches across several segments using the fixed
+instrument in `references/segment-screener.md`, to decide which segment earns the deep pass.
+Does not count toward the 5 interviews `../03_synthesis/references/validation-criteria.md`
+requires for a verdict.
+(b) **Before** (deep pass, chosen segment): generate an interview guide tailored to the segment
+(max 10–12 questions).
+(c) **After each interview**: structure the raw notes into facts, mentioned pains,
 current cost, who decides, commitment signals, verbatim quotes, and contradictions with the
 hypothesis. Don't invent or fill gaps; every inference gets flagged as an inference.
 
 ## Outputs
+- `output/YYYY-MM-DD-<person>-<org>.md` in `output/raw/`, opened with "screening touch — not an
+  interview" (screening mode)
 - `output/YYYY-MM-DD-guide-<segment>.md`
 - `output/YYYY-MM-DD-interview-<person>.md` (one per interview)
 

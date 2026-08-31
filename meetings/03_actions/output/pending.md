@@ -16,6 +16,17 @@ Format: person — commitment — source — status. Updated as meetings pass th
 - Wait for Fernando's Roberto Solano intro email and respond — source:
   `../../02_notes/output/2026-08-26-notes-fernando-carazo.md` — status: open.
 - Follow up with Fernando for the Avon sales contact — source: same — status: open.
+- Write back to Carlos Salazar once there is something concrete built, to hear whether it fits his
+  professional environment — source:
+  `../../../discovery/02_interviews/output/2026-08-27-interview-carlos-salazar.md` — status: open;
+  he granted permission ("Si no hay problema"), and the ask was framed "sin compromiso", so this
+  is permission to contact, not a commitment from him.
+- Confirm Carlos Salazar's exact entity, title, and scope (branch-level vs. above), and whether
+  the hypothesis's pain sits with someone above him at Purdy — source: same — status: open,
+  logged as PENDING in the interview file.
+- Confirm whether Carlos spoke the 2026-08-27 voice notes directly or Isaac was relaying him —
+  source: `../../../discovery/02_interviews/output/raw/2026-08-27-carlos-salazar-purdy.md` —
+  status: open; the WhatsApp messages are stamped with Isaac's account.
 
 ## Erik
 - Text the exact book title (audiobook) — source: 2026-08-12 notes — status: open,
