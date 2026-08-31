@@ -1,9 +1,14 @@
 ---
 name: activate
-description: Executes the external effect of a ready payload in outputs/ (create Jira issues or a Docmost page), with idempotency and a receipt. The system's only point with external writes. Use on "/activate <file>", "activate", "run the send".
+description: Executes the external effect of a ready payload in outputs/, with idempotency and a receipt. The system's only point with external writes. Use on "/activate <file>", "activate", "run the send".
 ---
 
-# Activate (the MCP activator)
+# Activate (the external-effect gate)
+
+No destination is configured today (Jira and Docmost were dropped — see
+`_config/decisions.md`). This skill has nothing to run against until a replacement destination
+is chosen, added as a row in `_config/output-catalog.md`, and given an `outputs/<destination>/`
+folder. Until then, treat any invocation as a no-op and say so.
 
 ## Gate
 
@@ -14,18 +19,14 @@ Activation requires human approval in one of two forms:
     (async backup). The commit is the auditable approval.
 Never activate anything that didn't go through one of the two.
 
-## Execution
+## Execution (once a destination exists)
 
 1. Validate the payload: `source:` front-matter present; format matches its template; if it
-   declares `project: <slug>`, read `projects/<slug>/published.md` for the target epic/page.
+   declares `project: <slug>`, read `projects/<slug>/published.md` for the target.
 2. Idempotency: if `outputs/<destination>/receipts/receipt-<file>.md` exists, it was already
-   sent — say so and stop. On Jira, also search by summary + `keeis-brain` label before creating.
-3. Execute:
-   - `outputs/jira/` → one issue per task in the payload (summary, description with `source:`,
-     owner, date, `keeis-brain` label; under the project's epic if applicable).
-   - `outputs/docmost/` → a NEW dated page `YYYY-MM-DD — <Topic>` in the indicated space
-     (CE limitation: never update existing pages via MCP; it recreates the ID and breaks links).
-4. Receipt: write `outputs/<destination>/receipts/receipt-<file>.md` with the keys and URLs created.
+   sent — say so and stop.
+3. Execute per the destination's own rules, defined alongside its row in the catalog.
+4. Receipt: write `outputs/<destination>/receipts/receipt-<file>.md` with what was created.
 5. Move the payload to `outputs/<destination>/sent/`. Commit: `outputs: activated <file>`
    (or `[bot] …` if running headless).
 6. Mid-run failure: partial receipt with what got done, a report in `_reports/` if headless,

@@ -1,6 +1,18 @@
 # Decision log
 Format: date — decision — reason — who.
 
+- 2026-08-31 — Dropped Jira and Docmost entirely: no external publishing destination is
+  configured anywhere in the system now. Removed `server/mcp/` (Docmost hub), `server/publisher/`
+  (Jira/Docmost transport), `server/jobs/publisher.md`, `.mcp.json` (atlassian MCP), the
+  `jira-tasks`/`docmost-page` catalog rows and templates, and `outputs/jira/`/`outputs/docmost/`
+  (both empty — nothing was ever sent, per `progress.md`). Updated `connections.md`,
+  `_config/output-catalog.md`, `_config/glossary.md`, `_config/invariant-rules.md`,
+  `_config/confidentiality-classification.md`, the `activate`/`derive`/`new-project` skills,
+  every pipeline `CONTEXT.md`, `CLAUDE.md`, `README.md`, and `server/README.md` to remove the
+  dependency; `activate` and `new-project` now degrade to their local-only steps until a
+  replacement destination is chosen. — Kendall is evaluating other tools for this; no replacement
+  picked yet. — Kendall.
+
 - 2026-08-30 — Renamed `inbox/` to `ideas/` (folder + every cross-reference in `CLAUDE.md`,
   `CONTEXT.md`, `progress.md`, `README.md`, `server/jobs/weekly-digest.md`, and the folder's own
   `README.md`). — Requested directly; no reason beyond preference recorded. Left the 2026-08-14

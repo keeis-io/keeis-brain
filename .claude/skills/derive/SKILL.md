@@ -1,6 +1,6 @@
 ---
 name: derive
-description: Generates a derivative artifact (spec, architecture, canvas, Jira task draft, Docmost page, etc.) from a source artifact, and mounts it in the correct folder per _config/output-catalog.md. Use on "derive", "mount me", "pull the specs/tasks/canvas from X".
+description: Generates a derivative artifact (spec, architecture, canvas, etc.) from a source artifact, and mounts it in the correct folder per _config/output-catalog.md. Use on "derive", "mount me", "pull the specs/canvas from X".
 ---
 
 # Derive

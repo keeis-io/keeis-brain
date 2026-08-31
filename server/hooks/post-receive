@@ -1,12 +1,9 @@
 #!/bin/sh
 # post-receive hook for the bare repo (/srv/git/keeis-brain.git/hooks/post-receive)
-# 1) Updates the working clone. 2) Mirrors to GitHub. 3) Triggers the publisher.
+# 1) Updates the working clone. 2) Mirrors to GitHub.
 
 # git sets GIT_DIR in the hook's environment; clear it to operate on the working clone.
 unset GIT_DIR
 
 git -C /srv/keeis-brain pull --ff-only
 git --git-dir=/srv/git/keeis-brain.git push --mirror github 2>/dev/null || true
-
-# Publisher: transports approved artifacts (idempotent; with a lock). In the background.
-/srv/keeis-brain/server/publisher/run.sh >/dev/null 2>&1 &

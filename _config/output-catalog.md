@@ -9,12 +9,14 @@ Two output classes:
 
 | Type | Class | Template | Mounted in | Activation |
 |---|---|---|---|---|
-| `spec` | Document | `templates/spec.md` | `projects/<slug>/specs/` | — (optional: derive `docmost-page`) |
+| `spec` | Document | `templates/spec.md` | `projects/<slug>/specs/` | — |
 | `architecture` | Document | `templates/architecture.md` | `projects/<slug>/architecture/` | — |
 | `lean-canvas` | Document | `templates/lean-canvas.md` | `projects/<slug>/canvas/` | — |
 | `bmc` | Document | `templates/bmc.md` | `projects/<slug>/canvas/` | — |
-| `jira-tasks` | Payload | `templates/jira-tasks.md` | `outputs/jira/` | skill `activate` → issues in Jira |
-| `docmost-page` | Payload | `templates/docmost-page.md` | `outputs/docmost/` | skill `activate` → page in Docmost |
+
+No `Payload` rows are defined today — Jira and Docmost were dropped
+(see `_config/decisions.md`); a replacement destination adds a row here + a template + an
+`outputs/<destination>/` folder, same as any other scaling.
 
 Conventions:
 - With no `project:` declared in the source, company-level documents go to `projects/keeis/`.

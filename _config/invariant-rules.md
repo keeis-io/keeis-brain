@@ -6,10 +6,11 @@ session. Read this before proposing scope, publishing anything, or handling exte
 
 1. **No credentials, keys, or secrets in this repo — ever**, regardless of file or folder.
    Server-side secrets live in gitignored env files on the ProDesk only. See `connections.md`.
-2. **No external effect without a human gate.** Nothing gets written to Jira, Docmost, or any
-   third-party system except through the `activate` skill, on a payload a human approved (an
-   in-session command, or a commit to `outputs/*/approved/`). The server publisher never
-   generates or decides — it only transports what's already approved.
+2. **No external effect without a human gate.** Nothing gets written to any third-party system
+   except through the `activate` skill, on a payload a human approved (an in-session command, or
+   a commit to `outputs/*/approved/`). The server publisher never generates or decides — it only
+   transports what's already approved. (No third-party destination is configured today — Jira
+   and Docmost were dropped, see `_config/decisions.md`.)
 3. **No fabricated data.** Anything missing from a source gets flagged
    `[PENDING: what's missing]` — never invented numbers, dates, quotes, or claims.
 4. **Calibrate every mention of a named external contact.** Erik Mekelburg (and anyone else who

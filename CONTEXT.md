@@ -5,8 +5,8 @@
 | Validating client/market, interviews | `discovery/` |
 | Business plan, investor material | `business-plan/` |
 | Preparing a meeting or processing its notes | `meetings/` |
-| "Mount me/derive X from Y" (spec, architecture, canvas, tasks, page) | skill `derive` + `_config/output-catalog.md` |
-| Executing a ready send (Jira issues, Docmost page) | skill `activate` on `outputs/` |
+| "Mount me/derive X from Y" (spec, architecture, canvas) | skill `derive` + `_config/output-catalog.md` |
+| Executing a ready send to an external destination | skill `activate` on `outputs/` (no destination configured today) |
 | Onboarding a new project | skill `new-project` |
 | Status, specs, architecture, or canvas of a product | `projects/<slug>/` (company → `projects/keeis/`) |
 | Connected systems and credentials | `connections.md` |
@@ -24,8 +24,8 @@
 ## Capabilities (skills in `.claude/skills/`)
 
 - `derive` — mounts documents and payloads in their sector per the catalog
-- `activate` — the only point with external effect (Jira/Docmost), with a human gate and receipts
-- `new-project` — full onboarding (folder + epic + page + routing)
+- `activate` — the only point with external effect, with a human gate and receipts (no destination configured today)
+- `new-project` — onboarding (folder + routing)
 - External (install and commit): `icm-architect` (RinDig), `icm-scaffold`/`icm-sync` (ktnCodes)
 
 ## Conventions
