@@ -28,6 +28,8 @@ hypothesis both paused. No run has reached `03_synthesis` yet.
 - [[2026-09-03-guide-pablo-ramirez-disrupt|Interview guide — Pablo Ramirez, Disrupt (real estate)]] — 20-min in-person guide, first touch in the real estate vertical.
 - [[2026-09-04-interview-pablo-ramirez|Interview — Pablo Ramirez, Disrupt (real estate)]] — structured interview; pain confirmed (lost sales, content gap, hidden decision-maker); product form objections (empowerment vs. micromanagement); unsolicited pivot toward domain-trained AI agents.
 - [[2026-09-03-guide-saylen-morales-enhmed|Interview guide — Saylen Morales, ENHMED (laboratorio)]] — 20-min in-person guide, first touch in the medical/lab equipment vertical.
+- [[2026-09-04-interview-saylen-morales|Interview — Saylen Morales, ENHMED (lab equipment)]] — structured interview; field content gap and manager visibility gap confirmed unprompted; licitación model (70–80%) challenges "conversation decides the close" claim; Q4 vote: individual correction (tally now 2–2); Q6 and closing commitment not executed.
+- [[2026-09-04-saylen-morales-enhmed|Raw — Saylen Morales, ENHMED (laboratorio)]] — unedited call transcript.
 - [[2026-08-26-mauricio-castro-eurohogar|Raw — Mauricio Castro email exchange]] — unedited source for the Castro interview.
 - [[2026-08-27-carlos-salazar-purdy|Raw — Carlos Salazar, WhatsApp + written answers]] — unedited source for the Salazar interview.
 - [[interview-guide|Interview rules (Mom Test style)]] — the questioning discipline every interview follows.
