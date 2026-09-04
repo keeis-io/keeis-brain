@@ -26,6 +26,7 @@ hypothesis both paused. No run has reached `03_synthesis` yet.
 - [[2026-08-27-interview-carlos-salazar|Interview — Carlos Salazar, Purdy]] — structured interview for consultative-sales-teams.
 - [[2026-08-29-guide-cristian-oviedo-fulzer|Interview guide — Fulzer, async email]] — tailored guide for a third contact (Cristian Oviedo).
 - [[2026-09-03-guide-pablo-ramirez-disrupt|Interview guide — Pablo Ramirez, Disrupt (real estate)]] — 20-min in-person guide, first touch in the real estate vertical.
+- [[2026-09-04-interview-pablo-ramirez|Interview — Pablo Ramirez, Disrupt (real estate)]] — structured interview; pain confirmed (lost sales, content gap, hidden decision-maker); product form objections (empowerment vs. micromanagement); unsolicited pivot toward domain-trained AI agents.
 - [[2026-09-03-guide-saylen-morales-enhmed|Interview guide — Saylen Morales, ENHMED (laboratorio)]] — 20-min in-person guide, first touch in the medical/lab equipment vertical.
 - [[2026-08-26-mauricio-castro-eurohogar|Raw — Mauricio Castro email exchange]] — unedited source for the Castro interview.
 - [[2026-08-27-carlos-salazar-purdy|Raw — Carlos Salazar, WhatsApp + written answers]] — unedited source for the Salazar interview.
