@@ -56,6 +56,7 @@ interviews, added 2026-09-04 after cold outreach stopped converting.
 - [[2026-09-04-jtbd-interview-summaries|JTBD summaries — four discovery interviews]] — second lens on the interviews; the segment evidence the value proposition rests on.
 - [[2026-09-05-pilot-deliverable-design|What the pilot actually delivers]] — the contents of the analysis handed to the manager: five prioritized items, all producible by hand, plus what is deliberately left out.
 - [[2026-09-05-lean-canvas-consultative-sales|Lean Canvas — consultative sales teams (CR)]] — the nine blocks with evidence or `[PENDING]`; problem side backed by four interviews, business side empty until a pilot runs.
+- [[2026-09-05-pilot-offer|The pilot offer]] — what the company gets, what we ask, what we get, and what we explicitly don't do; includes the Spanish pitch draft and the three decisions blocking it.
 
 ### 03 — Synthesis
 - [[discovery/03_synthesis/CONTEXT|Stage 03 process]] — how a verdict gets issued.
