@@ -22,18 +22,24 @@ hypothesis both paused. No run has reached `03_synthesis` yet.
 
 ### 02 — Interviews
 - [[discovery/02_interviews/CONTEXT|Stage 02 process]] — screening, guide, and structuring rules.
-- [[2026-08-26-interview-mauricio-castro|Interview — Mauricio Castro, Eurohogar]] — structured interview for consultative-sales-teams.
-- [[2026-08-27-interview-carlos-salazar|Interview — Carlos Salazar, Purdy]] — structured interview for consultative-sales-teams.
-- [[2026-08-29-guide-cristian-oviedo-fulzer|Interview guide — Fulzer, async email]] — tailored guide for a third contact (Cristian Oviedo).
-- [[2026-09-03-guide-pablo-ramirez-disrupt|Interview guide — Pablo Ramirez, Disrupt (real estate)]] — 20-min in-person guide, first touch in the real estate vertical.
-- [[2026-09-04-interview-pablo-ramirez|Interview — Pablo Ramirez, Disrupt (real estate)]] — structured interview; pain confirmed (lost sales, content gap, hidden decision-maker); product form objections (empowerment vs. micromanagement); unsolicited pivot toward domain-trained AI agents.
-- [[2026-09-03-guide-saylen-morales-enhmed|Interview guide — Saylen Morales, ENHMED (laboratorio)]] — 20-min in-person guide, first touch in the medical/lab equipment vertical.
-- [[2026-09-04-interview-saylen-morales|Interview — Saylen Morales, ENHMED (lab equipment)]] — structured interview; field content gap and manager visibility gap confirmed unprompted; licitación model (70–80%) challenges "conversation decides the close" claim; Q4 vote: individual correction (tally now 2–2); Q6 and closing commitment not executed.
-- [[2026-09-04-saylen-morales-enhmed|Raw — Saylen Morales, ENHMED (laboratorio)]] — unedited call transcript.
-- [[2026-08-26-mauricio-castro-eurohogar|Raw — Mauricio Castro email exchange]] — unedited source for the Castro interview.
-- [[2026-08-27-carlos-salazar-purdy|Raw — Carlos Salazar, WhatsApp + written answers]] — unedited source for the Salazar interview.
 - [[interview-guide|Interview rules (Mom Test style)]] — the questioning discipline every interview follows.
 - [[segment-screener|Segment screener]] — the shallow triage instrument used before committing to a 5-interview deep pass.
+
+#### Guides (pre-interview inputs)
+- [[2026-08-29-guide-cristian-oviedo-fulzer|Guide — Cristian Oviedo, Fulzer (async email)]] — tailored guide for a third contact.
+- [[2026-09-03-guide-pablo-ramirez-disrupt|Guide — Pablo Ramirez, Disrupt (real estate)]] — 20-min in-person guide, first touch in the real estate vertical.
+- [[2026-09-03-guide-saylen-morales-enhmed|Guide — Saylen Morales, ENHMED (laboratorio)]] — 20-min in-person guide, first touch in the medical/lab equipment vertical.
+
+#### Interviews (structured outputs)
+- [[2026-08-26-interview-mauricio-castro|Interview — Mauricio Castro, Eurohogar]] — structured interview for consultative-sales-teams.
+- [[2026-08-27-interview-carlos-salazar|Interview — Carlos Salazar, Purdy]] — structured interview for consultative-sales-teams.
+- [[2026-09-04-interview-pablo-ramirez|Interview — Pablo Ramirez, Disrupt (real estate)]] — structured interview; pain confirmed (lost sales, content gap, hidden decision-maker); product form objections (empowerment vs. micromanagement); unsolicited pivot toward domain-trained AI agents.
+- [[2026-09-04-interview-saylen-morales|Interview — Saylen Morales, ENHMED (lab equipment)]] — structured interview; field content gap and manager visibility gap confirmed unprompted; licitación model (70–80%) challenges "conversation decides the close" claim; Q4 vote: individual correction (tally now 2–2); Q6 and closing commitment not executed.
+
+#### Raw transcripts
+- [[2026-08-26-mauricio-castro-eurohogar|Raw — Mauricio Castro]] — email exchange.
+- [[2026-08-27-carlos-salazar-purdy|Raw — Carlos Salazar]] — WhatsApp + written answers.
+- [[2026-09-04-saylen-morales-enhmed|Raw — Saylen Morales, ENHMED]] — call transcript.
 
 ### 03 — Synthesis
 - [[discovery/03_synthesis/CONTEXT|Stage 03 process]] — how a verdict gets issued.

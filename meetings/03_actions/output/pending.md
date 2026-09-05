@@ -42,7 +42,7 @@ Format: person — commitment — source — status. Updated as meetings pass th
   introduction confirmed [PENDING].
 
 ## Fernando Carazo
-- [ ] Call Roberto Solano first, then send an intro email cc'ing Isaac — source: 2026-08-26 notes —
+- [x] Call Roberto Solano first, then send an intro email cc'ing Isaac — source: 2026-08-26 notes —
   status: open, not yet fulfilled.
 - [ ] Provide a contact at Avon for a direct-sales validation conversation — source: same — status:
   open, not yet fulfilled.
