@@ -54,6 +54,8 @@ interviews, added 2026-09-04 after cold outreach stopped converting.
 - [[2026-09-04-assumptions-prioritized|Assumption triage — Impact × Risk]] — what the first pilot must test, and the two things to settle before recruiting anyone.
 - [[2026-09-04-assumptions-map|Assumption map — 8 risk categories]] — the full identification pass behind the triage.
 - [[2026-09-04-jtbd-interview-summaries|JTBD summaries — four discovery interviews]] — second lens on the interviews; the segment evidence the value proposition rests on.
+- [[2026-09-05-pilot-deliverable-design|What the pilot actually delivers]] — the contents of the analysis handed to the manager: five prioritized items, all producible by hand, plus what is deliberately left out.
+- [[2026-09-05-lean-canvas-consultative-sales|Lean Canvas — consultative sales teams (CR)]] — the nine blocks with evidence or `[PENDING]`; problem side backed by four interviews, business side empty until a pilot runs.
 
 ### 03 — Synthesis
 - [[discovery/03_synthesis/CONTEXT|Stage 03 process]] — how a verdict gets issued.
