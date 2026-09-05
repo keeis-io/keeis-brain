@@ -8,8 +8,15 @@ Covers Phase 1.2 of
 `2026-09-04-value-proposition-technical-b2b.md` and
 `2026-09-05-pilot-deliverable-design.md`.
 
-**Not sendable yet.** Three operational decisions are still blank (bottom of this document) and
-they appear as literal sentences in the pitch. Everything else is ready.
+**Superseded as the sendable document — kept as the reasoning behind it.** On 2026-09-05 the
+three operational decisions in §5 were closed (logged in `_config/decisions.md`) and the formal,
+sendable version was written as `2026-09-05-pilot-proposal-consultative-sales.md`. Two things in
+this file changed on the way to the proposal: delivery is now **per visit within two business
+days** (a visit sheet) plus the closing readout, not only an end-of-week readout — because the
+first profile's stated-cost pain is time-to-quote; and the proposal says up front that
+**continuing after the free pilot is paid**, which turns the readout into the commitment test.
+The draft pitch in §6 is superseded by the proposal's cover message and is left here for the
+record.
 
 ## 1. What the company gets
 
@@ -33,8 +40,12 @@ The manager listens to no recordings and reviews no transcripts. That is the who
 ## 2. What we ask of them
 
 Stated plainly, because a free pilot with hidden costs is not free:
-- Reps record their conversations for one week. **[DECISION PENDING: on what device / with what tool.]**
-- Consent from the end client, obtained before recording. **[DECISION PENDING: mechanism — see §5.]**
+- Reps record their conversations for one week. **Decided 2026-09-05: the rep's own phone voice
+  recorder, uploaded the same day to a restricted Drive folder, deleted from the phone once
+  confirmed.**
+- Consent from the end client, obtained before recording. **Decided 2026-09-05: the rep asks
+  the client whether they agree to be recorded for the study; that is the whole mechanism — see
+  `../references/consent-script.md`.**
 - ~15 minutes of the manager's time for the closing readout.
 - One short conversation with a participating rep afterwards, about how being recorded felt.
 
@@ -69,10 +80,25 @@ them came directly out of the interviews:
   changes with their knowledge.
 - **They can stop at any point** and the material is destroyed on request.
 
-## 5. The three decisions blocking this
+## 5. The three decisions that were blocking this — closed 2026-09-05
 
-Each of these is a sentence in the pitch. They cannot be left vague — a manager who cannot get a
-straight answer here will decline, correctly.
+Each of these is a sentence in the pitch. They could not be left vague — a manager who cannot get
+a straight answer here will decline, correctly. Decisions (full rationale in
+`_config/decisions.md`, 2026-09-05):
+
+1. **Storage/access** — a Google Drive folder under a Keeis-controlled account, one subfolder per
+   rep, access limited to Kendall's and Isaac's named accounts with 2-step verification; nothing
+   by WhatsApp or email; transcription with a locally-run model, no audio to third-party services.
+2. **Retention** — deleted the same day the readout is delivered, everywhere, confirmed in
+   writing; the company keeps its sheets; Keeis keeps only anonymized conclusions and its own
+   time measurements. The raw corpus (the lean canvas's only defensibility candidate) is
+   deliberately given up for the pilot phase.
+3. **End-client consent** — the rep asks the client whether they agree to be recorded to gather
+   information for the study; no or hesitation → no recording; withdraw at any time. Personal
+   segments never analyzed, people by role not by name, the sales manager decides eligibility.
+   Short lawyer check before the first recording (next-steps item).
+
+The original table, for the record:
 
 | # | Question | Why it blocks the offer | Plan reference |
 |---|---|---|---|
@@ -81,12 +107,15 @@ straight answer here will decline, correctly.
 | 3 | **How is the end client's consent obtained?** | The end client is a third party who never opted into our pilot. This is assumption #8, the only item in the triage that can block the pilot legally, and it was flagged directly by Pablo Ramirez | Blocker, `2026-09-04-assumptions-prioritized.md` |
 
 Q1 of Phase 1.1 (how many reps participate) is not on this list — it depends on the company and
-gets settled in the conversation, not beforehand.
+gets settled in the conversation, not beforehand. The proposal suggests 3–5 reps and up to ~12
+visits for the first pilot, as a size at which the 2-business-day turnaround can be promised.
+Q4 (manual vs. transcription-assisted) is also closed: transcription-assisted with a local model,
+analysis by hand.
 
-## 6. Draft pitch — Spanish, for the first contact
+## 6. Draft pitch — Spanish, for the first contact — SUPERSEDED
 
-Fill the three bracketed blanks before sending. Register per `_config/voice.md`: this is
-external-facing, so polished rather than internal-terse.
+Superseded by the cover message and body of `2026-09-05-pilot-proposal-consultative-sales.md`.
+Kept for the record; do not send this version.
 
 ```
 Buenas [nombre],
@@ -138,6 +167,8 @@ no un favor.
 - **Price.** Nothing here mentions money, correctly — the pilot is free by design. Willingness to
   pay gets tested at Phase 5, after delivery, per the plan's threshold: payment or an unprompted
   request to continue. Not before.
-- **Which company receives it first.** Route B recruiting criteria are in the lean canvas
+- **Which company receives it first.** Settled 2026-09-05 by Isaac: Yasmin's ad agency via
+  Roberto Solano (Route A, hybrid profile); ENHMED second. Reasons in
+  `2026-09-05-pilot-next-steps.md`. Route B recruiting criteria remain in the lean canvas
   (`2026-09-05-lean-canvas-consultative-sales.md`, block 2): consultative high-ticket sales,
   roughly **≥8 reps** — below that the manager can still be in the room and reports no pain.

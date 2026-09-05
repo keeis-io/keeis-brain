@@ -2,8 +2,8 @@
 
 One run = one meeting (investor, partners, or a third party); market-validation conversations
 go in `discovery/02_interviews` instead. Stages: `01_preparation` → `02_notes` → `03_actions`.
-Two meetings have been processed so far (Erik Mekelburg, Fernando Carazo), neither with a prior
-prep brief — both went straight to notes. `pending.md` tracks every open commitment across them.
+Three meetings have been processed so far (Erik Mekelburg, Fernando Carazo, Roberto Solano),
+none with a prior prep brief — all went straight to notes. `pending.md` tracks every open commitment across them.
 
 ## Contents
 
@@ -24,4 +24,5 @@ prep brief — both went straight to notes. `pending.md` tracks every open commi
 - [[meetings/03_actions/CONTEXT|Stage 03 process]] — how actions and derivation proposals get extracted.
 - [[2026-08-12-actions-erik|Actions — Erik Mekelburg]] — formalized retroactively on 2026-08-26.
 - [[2026-08-26-actions-fernando-carazo|Actions — Fernando Carazo]] — two referral follow-ups logged.
+- [[2026-09-04-actions-roberto-solano|Actions — Roberto Solano]] — Monday reminder, Yasmin coordination (with the rep-authority question), Route B search, Toyota held back; proposal sharpening marked done.
 - [[pending|Open commitments — living list]] — who owes what, updated as meetings pass through this stage.

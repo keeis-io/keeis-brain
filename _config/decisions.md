@@ -95,6 +95,81 @@ Format: date — decision — reason — who.
   `discovery/03_synthesis`") — the call was to pause it, not promote it further. — Kendall's
   explicit call: single-front focus on the hypothesis with live signal. — Kendall.
 
+- 2026-09-05 — **The five operational decisions that made the pilot proposal sendable**
+  (`discovery/02b_pilot/output/2026-09-05-pilot-proposal-consultative-sales.md`), closing the
+  blanks in `2026-09-05-pilot-offer.md` §5 and the plan's Phase 1.1 questions:
+  (1) **Storage/access** — a Google Drive folder under a Keeis-controlled account, one subfolder
+  per rep, access only to Kendall's and Isaac's named accounts with 2-step verification; no audio
+  by WhatsApp or email; the rep deletes the file from their phone once upload is confirmed;
+  transcription with a locally-run open-source model on our laptops so no audio reaches any
+  third-party or cloud AI service. Chosen over the ProDesk (not stood up) and over any cloud
+  transcription (the confidentiality answer has to be true today, not after infrastructure).
+  (2) **Retention** — recordings, transcripts and working notes are deleted **the same day the
+  readout is delivered**, everywhere, and confirmed in writing (Isaac's correction of the
+  agent's initial 30-day window: deleting on delivery is the professional standard, and a
+  holding window buys nothing). The company keeps its sheets; Keeis keeps only anonymized
+  conclusions and its own time measurements. This knowingly gives up the raw conversation corpus
+  the lean canvas named as the only defensibility candidate — the pilot phase is for learning,
+  not for accruing assets.
+  (3) **End-client consent** — the rep simply asks the client, before recording, whether they
+  agree to be recorded to gather information for the study we are running; yes → record, no or
+  hesitation → don't, withdraw or ask to delete at any time (Isaac's correction of the agent's
+  initial notice-plus-script design: a written notice is unnecessary ceremony). Our own analysis
+  practice stays: personal segments never analyzed, people by role not name, the sales manager
+  decides which conversations are eligible. A short lawyer check is still planned before the
+  first recording, not before sending. Ley 8968 remains logged as a risk, not verified fact.
+  (4) **First-pilot size and method** — 3–5 reps, up to ~12 visits, 5-day recording window with
+  a one-week extension if fewer than 5 visits happened; transcription-assisted, analysis by hand
+  with a fixed template (`discovery/02b_pilot/references/analysis-template.md`).
+  (5) **Delivery cadence** — a per-conversation sheet within two business days of upload, plus
+  the closing readout — not only an end-of-week readout as `pilot-offer.md` had it. Reason: a
+  sheet that arrives after the follow-up (or the quote) already happened tests nothing; the
+  behavioral signal is whether the rep uses it while the lead is warm. The turnaround promise is
+  checked once in a dry run before the proposal is sent (assumption #6 is unmeasured). — Kendall
+  + Isaac (taken in session by the agent on Isaac's instruction; (2) and (3) corrected by Isaac
+  the same day).
+
+- 2026-09-05 — **Two proposal variants exist, testing two product forms.** Variant A
+  (`discovery/02b_pilot/output/2026-09-05-pilot-proposal-consultative-sales.md`) tests the
+  delivered-analysis-service form; variant B
+  (`…-pilot-proposal-full-consultative-sales.md`) tests the coaching-against-the-best-rep form —
+  the one Isaac pitched to Roberto Solano — with every intended product feature (rep comparison,
+  sales guide per client type, corrections per rep, lost-sale reading, new-rep first-week plan,
+  a simulated-client practice session) done by hand inside the pilot: two recording weeks, a
+  team report, no ranking (pattern and gaps; each rep sees only their own section). Variant A is
+  left intact. Which variant a company receives is decided per company by Kendall and Isaac; the
+  difference in reaction is evidence for assumption #12. — Isaac's call to write B; the
+  no-ranking framing is the agent's, reversible.
+
+- 2026-09-05 — **The free pilot states up front that continuing is paid.** The proposal's §8
+  says the pilot has no cost and no obligation, and that any continuation (more reps, more
+  weeks, a recurring cycle) has a price to be agreed at the readout. Terms are decided before
+  each readout and never appear earlier. — Turns the readout into the Phase 5 commitment test
+  (pay, or ask to continue unprompted) instead of a courtesy conversation, and answers assumption
+  #11 ("no cost, no commitment" vs. anchoring at free-forever) by design rather than by tracking.
+  Roberto Solano's own suggestion of withholding part of the report to sell the rest was
+  rejected: it contradicts the plan's "deliver value, not a favor" framing. — Kendall + Isaac.
+
+- 2026-09-05 — **First recipient of the proposal: Yasmin/Jazmín's ad agency, via Roberto Solano
+  (Route A).** Isaac's call, correcting the agent's initial choice of Saylen Morales / ENHMED.
+  Profile: hybrid — digital leads generated by the agency, close at a separate dealership — the
+  profile Roberto himself recommended as the simplest to analyze (high ticket, few reps, short
+  process), and the one where his conversion-pattern design (flag which conversations converted,
+  report what separates them) is actually testable within the window. The authority question
+  (agency vs. dealership over the reps) is asked explicitly in the proposal's cover and §5
+  rather than assumed. ENHMED becomes the intended **second profile** (technical B2B, no field
+  CRM, Route C). Disrupt and Eurohogar get the sample sheet (experiment 1), not the proposal, for
+  now; Purdy is not a pilot candidate (no felt pain, asked for compliance control — out of
+  scope); Toyota's GM stays held back until a working pilot exists. — Isaac.
+
+- 2026-09-05 — **Pilot execution is sequential and Block 1 is the only block with a stated
+  duration.** The roadmap (`discovery/02b_pilot/output/2026-09-05-pilot-roadmap-milestones.md`)
+  sizes its first two-week block around one pilot with margin and recalibrates every later block
+  from that pilot's measured hours; pilots run one at a time until that measurement says two can
+  overlap. — The "one week per pilot" figure in the plan and the old offer was never measured
+  (assumption #6), and two students cannot promise three parallel manual pilots on an assumption
+  (assumption #14). — Kendall + Isaac.
+
 - 2026-09-05 — Gave the pilot channel decided on 2026-09-04 (entry at the end of this log) a home
   in the structure: added **`discovery/02b_pilot/`** as a *second stage-02 evidence channel*,
   parallel to `02_interviews` — not a successor to it, and deliberately not numbered `04`, which

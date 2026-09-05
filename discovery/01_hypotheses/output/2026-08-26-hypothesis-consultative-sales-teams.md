@@ -88,6 +88,18 @@ whether to revise the hypothesis:
   workflow. This is the concrete version of Fernando Carazo's "resembles tools already in use."
   Any offer sits next to Salesforce and has to beat a panel the manager already finds adequate.
 
+## Where validation stands — 2026-09-05
+
+Preparation for the pilot channel is complete: a sendable proposal, a two-week-block roadmap to
+the Phase 5 decision, and an ordered next-steps list live in `../../02b_pilot/output/`. First
+recipient: the hybrid digital-lead + in-person-close ad agency Roberto Solano is introducing
+(Yasmin; pending his confirmation) — the profile he recommended as simplest to analyze, and the
+one where "which conversations converted" is observable within the window. Second profile
+intended: Saylen Morales / ENHMED (technical B2B distribution, no field CRM). Nuance for that
+second pilot: ENHMED sells 70–80 % by tender, so a pilot there targets the **field visits**, not
+"the closing conversation" as this hypothesis's segment line frames it — that claim does not hold
+cleanly in the lab vertical and is a synthesis item.
+
 ## What we still don't know — the thing that decides everything
 
 Whether this gets paid for. Neither conversation touched money. Mauricio saying "it could help

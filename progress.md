@@ -1,5 +1,5 @@
 # Progress — keeis-brain
-Last updated: 2026-09-01
+Last updated: 2026-09-05
 
 Living log of the ICM brain's build-out. This isn't Layer 0-3 (business context): it's the
 state of the system itself. Update it as each step in `README.md` → "Startup sequence" closes,
@@ -7,9 +7,15 @@ or when a relevant infrastructure decision gets made (those also go to `_config/
 
 ## Snapshot
 
-**ICM v5 structure scaffolded and in real use.** Git is live (12 commits, pushed to GitHub).
+**ICM v5 structure scaffolded and in real use.** Git is live, pushed to GitHub.
 `discovery/` and `meetings/` have real runs; `business-plan/` and `discovery/03_synthesis` don't
 yet. No server infrastructure (ProDesk, Jira, digest cadence) has been stood up.
+
+**Single active front as of 2026-09-05: `discovery/02b_pilot/`.** Preparation is complete — a
+sendable pilot proposal, a two-week-block roadmap to the Phase 5 decision, an ordered next-steps
+list, and three stage references (analysis template, consent script, pilot run template). No
+pilot has run. The infrastructure items below are deliberately parked until the Phase 5 decision;
+none of them blocks the pilot.
 
 ## Done — local skeleton
 
@@ -41,8 +47,9 @@ yet. No server infrastructure (ProDesk, Jira, digest cadence) has been stood up.
   - `discovery/01_hypotheses`: 3 hypotheses (`plates`/parking lots, microenterprises, consultative-sales-teams).
   - `discovery/02_interviews`: 4 structured interviews (Mauricio Castro, Carlos Salazar, Pablo
     Ramirez, Saylen Morales) + 3 guides (Fulzer async, Disrupt, ENHMED).
-  - `discovery/02b_pilot`: new stage-02 channel added 2026-09-04 (field pilot / concierge MVP)
-    with its own `CONTEXT.md` and 4 preparation artifacts. No pilot has run yet.
+  - `discovery/02b_pilot`: stage-02 channel added 2026-09-04 (field pilot / concierge MVP).
+    As of 2026-09-05: 11 preparation artifacts, 3 stage references, proposal sendable, blockers
+    closed by decision. No pilot has run yet.
   - `meetings/`: 2 full `01_preparation`→`02_notes`→`03_actions` cycles worth of content (Erik Mekelburg,
     Fernando Carazo — both skipped straight to notes, no prep run), plus a living `pending.md`.
   - `current-strategy.md` reflects this: a primary front (consultative-sales-teams) and two paused
@@ -60,9 +67,10 @@ yet. No server infrastructure (ProDesk, Jira, digest cadence) has been stood up.
 - [ ] `discovery/03_synthesis`: no hypothesis has reached a verdict yet. The consultative-sales-teams
   run stopped at 4 interviews (one short of the 5-interview minimum in
   `references/validation-criteria.md`) and switched channel on 2026-09-04: it now validates through
-  `02b_pilot`, whose threshold is ≥3 completed pilots across ≥2 sales profiles. Two blockers gate
-  the first pilot — end-client consent, and which product form the pilot tests
-  (`02b_pilot/output/2026-09-04-assumptions-prioritized.md`).
+  `02b_pilot`, whose threshold is ≥3 completed pilots across ≥2 sales profiles. The two blockers
+  that gated the first pilot were closed by decision on 2026-09-05; what remains before the
+  first recording is a lawyer review of the consent script and one end-to-end dry run
+  (`02b_pilot/output/2026-09-05-pilot-next-steps.md`).
 
 ## Missing — "Startup sequence" (README.md), step by step
 
@@ -78,6 +86,9 @@ yet. No server infrastructure (ProDesk, Jira, digest cadence) has been stood up.
 
 ## Immediate next steps
 
+- [ ] **The pilot front, first and only** — follow
+  `discovery/02b_pilot/output/2026-09-05-pilot-next-steps.md` in order (Roberto reminder Monday,
+  storage set-up, end-to-end dry run, lawyer check, send to Yasmin's agency once Roberto confirms). Everything below is parked.
 - [ ] Fill in the remaining `[EDIT]` placeholders in `_config/company.md` (other relationships)
   and `connections.md` (hostname, Jira, GitHub/ProDesk) — small, doesn't depend on infrastructure.
 - [ ] Decide whether the ProDesk-bare-repo architecture (README step 1) is still wanted, now that
@@ -92,6 +103,18 @@ yet. No server infrastructure (ProDesk, Jira, digest cadence) has been stood up.
   `03_synthesis` gets its first real verdict.
 
 ## Log
+
+- 2026-09-05 — Pilot preparation closed. Added the sendable proposal (Spanish, with a fictional
+  sample conversation sheet and the consent question as annexes), the two-week-block roadmap, the
+  ordered next-steps list, and `discovery/02b_pilot/references/` (analysis template, consent
+  script, pilot run template). Revised the experiments brainstorm against the finished
+  proposal. Marked `pilot-offer.md` as superseded-for-sending with its three decisions closed.
+  Rewrote `02b_pilot/CONTEXT.md` for the new state. Wired everything into `discovery/MOC.md`,
+  `HOME.md` (active-front block), `meetings/MOC.md`. Formalized the missing `03_actions` run for
+  the Roberto Solano meeting and updated `pending.md` (Fernando's intro marked done; Monday
+  reminder, Yasmin coordination, proposal send, lawyer check added). Corrected the same day on Isaac's review: first recipient is Yasmin's agency (not ENHMED), deletion happens the day the readout is delivered (not +30 days), consent is a single question to the client (no written notice). Applied to `_config/`:
+  four decision-log entries, a state note and operating note in `current-strategy.md`, five
+  glossary terms — all flagged in the session for human revert if wrong.
 
 - 2026-09-04 — Added `discovery/02b_pilot/` as a second stage-02 evidence channel (field pilot /
   concierge MVP), parallel to `02_interviews`, both feeding `03_synthesis`. Wired it into the

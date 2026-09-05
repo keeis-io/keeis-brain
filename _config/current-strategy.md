@@ -2,6 +2,11 @@
 Last updated: 2026-09-05
 
 ## Focus (max 2 fronts at a time)
+
+**Operating note (2026-09-05):** all working time goes to front 1 — specifically to
+`discovery/02b_pilot/` — until the Phase 5 decision point. Front 2 stays listed and is not
+worked on unless Erik asks. Anything else lands in `ideas/` and waits.
+
 1. Define and validate a paying client for consultative-sales-team conversation intelligence →
    `discovery/` pipeline. Promoted to primary front as of 2026-08-26, replacing the
    license-plate technology (`plates`) front.
@@ -14,9 +19,17 @@ Last updated: 2026-09-05
      `discovery/02b_pilot/`, not cold outreach and not more interviews. Threshold for this
      hypothesis: ≥3 completed pilots across ≥2 distinct sales profiles, with real commitment
      (payment or an unprompted request to continue).
-   - **Two blockers before the first pilot runs**: end-client consent, and keeping the pilot
-     designed so a negative result is attributable — see
-     `discovery/02b_pilot/output/2026-09-04-assumptions-prioritized.md`.
+   - **State (2026-09-05): the proposal is sendable.** The two blockers named on 2026-09-04
+     (end-client consent; a pilot design that keeps a negative result attributable) are closed by
+     decision — see `_config/decisions.md`, 2026-09-05 entries. The active documents are
+     `discovery/02b_pilot/output/2026-09-05-pilot-proposal-consultative-sales.md` (what is
+     offered), `…-pilot-roadmap-milestones.md` (two-week blocks to the Phase 5 decision), and
+     `…-pilot-next-steps.md` (the ordered list to the first confirmed company). First recipient:
+     Yasmin's ad agency via Roberto Solano (hybrid profile), pending his Monday confirmation;
+     second profile: Saylen Morales / ENHMED.
+   - **Before the first recording, not before sending**: a lawyer review of the consent script
+     and one end-to-end dry run of the delivery chain (experiment 2 in
+     `discovery/02b_pilot/output/2026-09-05-experiments-brainstorm.md`).
 2. Business plan reviewable by Erik → `business-plan/` pipeline. Not tied to a specific project:
    Erik's ask on 2026-08-12 was for a milestone-based business plan, illustratively framed around
    `plates` at the time (see `../meetings/02_notes/output/2026-08-12-notes-erik.md`) — that was

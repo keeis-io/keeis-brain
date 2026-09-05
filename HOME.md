@@ -5,6 +5,10 @@ source of truth. The repo itself, read through `CLAUDE.md` and each `CONTEXT.md`
 authoritative; this file and the `MOC.md` hubs only exist to make folders visible as branches
 in the graph.
 
+## Active front (2026-09-05)
+
+- [[discovery/02b_pilot/CONTEXT|Field pilot — stage 02b]] — the only thing being worked on until the Phase 5 decision. Start with the [[2026-09-05-pilot-next-steps|next steps]], then the [[2026-09-05-pilot-proposal-consultative-sales|proposal]] and the [[2026-09-05-pilot-roadmap-milestones|roadmap]].
+
 ## Branches
 
 - [[discovery/MOC|Discovery]] — market validation: hypotheses, interviews, field pilot, synthesis.
