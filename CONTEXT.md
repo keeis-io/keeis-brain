@@ -3,6 +3,7 @@
 | If the task is… | Go to |
 |---|---|
 | Validating client/market, interviews | `discovery/` |
+| Running or preparing a field pilot / concierge MVP with a real company | `discovery/02b_pilot/` |
 | Business plan, investor material | `business-plan/` |
 | Preparing a meeting or processing its notes | `meetings/` |
 | "Mount me/derive X from Y" (spec, architecture, canvas, tasks, page) | skill `derive` + `_config/output-catalog.md` |

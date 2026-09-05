@@ -17,7 +17,10 @@ Shared vocabulary across the system. When in doubt about a term used in `CLAUDE.
 | catalog | `_config/output-catalog.md` — the table `derive` reads: type → template → destination folder → activation. Scaling the system means adding a row here. |
 | payload | An output class in the catalog: a draft of an external send, mounted in `outputs/<destination>/`, waiting for `activate`. |
 | document (class) | The other output class: lives with its owning project (or `projects/keeis/` for company-level), is itself the source of truth — nothing external to push. |
-| pipeline | A multi-stage process folder (`discovery/`, `business-plan/`, `meetings/`) with numbered stages `01→03` and a human gate between each. |
+| pipeline | A multi-stage process folder (`discovery/`, `business-plan/`, `meetings/`) with numbered stages `01→03` and a human gate between each. A stage can have more than one channel: `discovery` has `02_interviews` and `02b_pilot`, both feeding `03_synthesis`. |
+| channel (evidence) | The route by which a stage gathers its evidence. For `discovery` stage 02: interviews (a conversation) or field pilot (a company actually running the thing). The channel a run uses determines which validation threshold applies to it. |
+| concierge MVP / "piloto del piloto" | A pilot run entirely by hand before anything is built: Keeis records real vendor–client conversations, analyzes them manually, and delivers findings. Validates product and process at the same time. Lives in `discovery/02b_pilot/`. |
+| profile (sales) | A shape of sales operation inside a segment (e.g. technical B2B distribution with no field CRM; hybrid high-ticket sales with few reps). Choosing a profile to pilot first is a sequencing call — it does not narrow the segment under validation. |
 | gate | The human-review checkpoint between stages, or between `derive` and `activate`. Nothing external happens without one. |
 | run | A dated working file inside a pipeline stage's `output/`, named `YYYY-MM-DD-topic.md`. |
 | ProDesk | The physical/Tailscale server Keeis operates: hosts Docmost, the bare Git origin, the publisher, and the cadence cron. |

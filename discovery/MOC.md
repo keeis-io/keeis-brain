@@ -2,9 +2,10 @@
 
 Market discovery: answer with evidence who pays, for what pain, and how much. One run = one
 validation cycle for one hypothesis (one segment), moving through `01_hypotheses` →
-`02_interviews` → `03_synthesis`. Three hypotheses have been written; the current primary front
-is consultative-sales-teams (promoted 2026-08-26), with `plates` and the microenterprises
-hypothesis both paused. No run has reached `03_synthesis` yet.
+`02_interviews` or `02b_pilot` → `03_synthesis`. Three hypotheses have been written; the current
+primary front is consultative-sales-teams (promoted 2026-08-26), with `plates` and the
+microenterprises hypothesis both paused. As of 2026-09-04 the evidence channel for the active
+hypothesis is a field pilot, not cold outreach. No run has reached `03_synthesis` yet.
 
 ## Contents
 
@@ -40,7 +41,19 @@ hypothesis both paused. No run has reached `03_synthesis` yet.
 #### Raw transcripts
 - [[2026-08-26-mauricio-castro-eurohogar|Raw — Mauricio Castro]] — email exchange.
 - [[2026-08-27-carlos-salazar-purdy|Raw — Carlos Salazar]] — WhatsApp + written answers.
+- [[2026-09-04-pablo-ramirez-disrupt|Raw — Pablo Ramirez, Disrupt]] — call transcript.
 - [[2026-09-04-saylen-morales-enhmed|Raw — Saylen Morales, ENHMED]] — call transcript.
+
+### 02b — Field pilot (concierge MVP)
+
+Preparation artifacts for the first "mechanical turk" pilot. Parallel evidence channel to the
+interviews, added 2026-09-04 after cold outreach stopped converting.
+
+- [[discovery/02b_pilot/CONTEXT|Stage 02b process]] — what the pilot stage does and the two blockers that gate it.
+- [[2026-09-04-value-proposition-technical-b2b|Value proposition — technical consultative B2B, no field CRM]] — Phase 1.1 of the field plan; narrows the segment to the ENHMED profile and picks the product form (delivered analysis service, not a supervision tool).
+- [[2026-09-04-assumptions-prioritized|Assumption triage — Impact × Risk]] — what the first pilot must test, and the two things to settle before recruiting anyone.
+- [[2026-09-04-assumptions-map|Assumption map — 8 risk categories]] — the full identification pass behind the triage.
+- [[2026-09-04-jtbd-interview-summaries|JTBD summaries — four discovery interviews]] — second lens on the interviews; the segment evidence the value proposition rests on.
 
 ### 03 — Synthesis
 - [[discovery/03_synthesis/CONTEXT|Stage 03 process]] — how a verdict gets issued.

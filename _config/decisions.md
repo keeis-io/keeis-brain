@@ -95,6 +95,45 @@ Format: date — decision — reason — who.
   `discovery/03_synthesis`") — the call was to pause it, not promote it further. — Kendall's
   explicit call: single-front focus on the hypothesis with live signal. — Kendall.
 
+- 2026-09-05 — Gave the pilot channel decided on 2026-09-04 (entry at the end of this log) a home
+  in the structure: added **`discovery/02b_pilot/`** as a *second stage-02 evidence channel*,
+  parallel to `02_interviews` — not a successor to it, and deliberately not numbered `04`, which
+  would place it after synthesis. Both channels feed `03_synthesis`. Wired into every file that
+  routes or loads context: `CLAUDE.md` (map), root `CONTEXT.md` (routing table),
+  `discovery/CONTEXT.md`, `discovery/MOC.md`, `HOME.md`, `02_interviews/CONTEXT.md` (pointer), and
+  — the one that mattered — `03_synthesis/CONTEXT.md`, whose Inputs named only
+  `02_interviews/output/` and would therefore have issued a verdict blind to every piece of pilot
+  evidence, while applying an interview-count threshold that pilot-channel runs will never meet.
+  — A channel with no stage folder has nowhere to put its artifacts, and a synthesis stage that
+  doesn't know the channel exists silently produces wrong verdicts. — Kendall + Isaac.
+
+- 2026-09-05 — The pilot's **first target profile** is the ENHMED-like one (technical consultative
+  B2B distribution, ~10 reps, no CRM occupying the field-visit workflow). **This is a sequencing
+  call, not a narrowing of the segment.** The hypothesis under validation remains what
+  `discovery/01_hypotheses/output/2026-08-26-hypothesis-consultative-sales-teams.md` states:
+  Costa Rican companies with consultative, high-ticket sales — the pilot exists to keep validating
+  that segment *more realistically*, not to shrink it to one vertical. Purdy (automotive) and
+  Disrupt (real estate) stay inside the segment; they are simply harder first tests because an
+  incumbent CRM already occupies the workflow. The governing plan requires the opposite of
+  narrowing: Phase 4 repeats across 2–3 more companies and Phase 5 refuses any decision built on
+  fewer than two distinct sales profiles. A second profile gets its own value-proposition pass;
+  the differences between profiles are themselves evidence. — Kendall's explicit correction, made
+  when the first draft of
+  `discovery/02b_pilot/output/2026-09-04-value-proposition-technical-b2b.md` described the choice
+  as a segment narrowing; the artifacts were corrected to match. — Kendall.
+
+- 2026-09-05 — **Product form the pilot tests**: a *delivered analysis service* — the conversation
+  is captured and the manager receives a pre-digested, actionable read of it, listening to nothing
+  and reviewing no recordings. Explicitly not the two competing forms the interviews surfaced:
+  not compliance/follow-up control (what Carlos Salazar asked for), and not a self-serve
+  supervision tool the manager operates. — Chosen because it is the only form that answers Pablo
+  Ramirez's three principled objections at once (manager as a finite resource / empowerment vs.
+  micromanagement, spontaneity, and privacy), while still delivering the conversation content that
+  no CRM captures. Recorded as an explicit, falsifiable bet: if the pilot fails, this decision is
+  one of the named suspects, per
+  `discovery/02b_pilot/output/2026-09-04-assumptions-prioritized.md` (assumption #12). — Kendall +
+  Isaac.
+
 - 2026-09-04 — Replaced cold-email/call outreach with a field pilot ("piloto del piloto",
   concierge MVP) as the Stage 02 validation channel for the consultative-sales-teams hypothesis:
   a free one-week manual recording-and-analysis pilot with a real sales team, validating product

@@ -39,7 +39,10 @@ yet. No server infrastructure (ProDesk, Jira, digest cadence) has been stood up.
   describe — that specific setup (step 1 below) is still not done.
 - [x] First real pipeline runs exist:
   - `discovery/01_hypotheses`: 3 hypotheses (`plates`/parking lots, microenterprises, consultative-sales-teams).
-  - `discovery/02_interviews`: 2 structured interviews (Mauricio Castro, Carlos Salazar) + 1 async guide (Fulzer).
+  - `discovery/02_interviews`: 4 structured interviews (Mauricio Castro, Carlos Salazar, Pablo
+    Ramirez, Saylen Morales) + 3 guides (Fulzer async, Disrupt, ENHMED).
+  - `discovery/02b_pilot`: new stage-02 channel added 2026-09-04 (field pilot / concierge MVP)
+    with its own `CONTEXT.md` and 4 preparation artifacts. No pilot has run yet.
   - `meetings/`: 2 full `01_preparation`→`02_notes`→`03_actions` cycles worth of content (Erik Mekelburg,
     Fernando Carazo — both skipped straight to notes, no prep run), plus a living `pending.md`.
   - `current-strategy.md` reflects this: a primary front (consultative-sales-teams) and two paused
@@ -54,9 +57,12 @@ yet. No server infrastructure (ProDesk, Jira, digest cadence) has been stood up.
   syncing for real via a direct GitHub origin instead (see Done, above).
 - [ ] `business-plan/` pipeline: zero runs across all three stages (`01_research`, `02_draft`,
   `03_review` all still just `.gitkeep`) — blocked on nothing structural, just hasn't started.
-- [ ] `discovery/03_synthesis`: no hypothesis has reached a verdict yet, even though
-  `02_interviews` has two completed interviews for consultative-sales-teams — synthesis needs at
-  least 5 interviews from the same segment per `references/validation-criteria.md`.
+- [ ] `discovery/03_synthesis`: no hypothesis has reached a verdict yet. The consultative-sales-teams
+  run stopped at 4 interviews (one short of the 5-interview minimum in
+  `references/validation-criteria.md`) and switched channel on 2026-09-04: it now validates through
+  `02b_pilot`, whose threshold is ≥3 completed pilots across ≥2 sales profiles. Two blockers gate
+  the first pilot — end-client consent, and which product form the pilot tests
+  (`02b_pilot/output/2026-09-04-assumptions-prioritized.md`).
 
 ## Missing — "Startup sequence" (README.md), step by step
 
@@ -86,6 +92,14 @@ yet. No server infrastructure (ProDesk, Jira, digest cadence) has been stood up.
   `03_synthesis` gets its first real verdict.
 
 ## Log
+
+- 2026-09-04 — Added `discovery/02b_pilot/` as a second stage-02 evidence channel (field pilot /
+  concierge MVP), parallel to `02_interviews`, both feeding `03_synthesis`. Wired it into the
+  files that route and load context: root `CLAUDE.md` map, root `CONTEXT.md` routing table,
+  `discovery/CONTEXT.md`, `discovery/MOC.md`, `HOME.md`, `02_interviews/CONTEXT.md` (pointer), and
+  `03_synthesis/CONTEXT.md` (added the pilot folder to Inputs — without it, synthesis would issue a
+  verdict blind to the pilot evidence). Pending human approval in `_config/`: decision-log entries,
+  a `current-strategy.md` update, and glossary terms — `_config/` is read-only for agents.
 
 - 2026-09-01 — Reviewed this checklist against the actual repo state and corrected it: checked
   off items that turned out already done (Git live via GitHub, first real runs in `discovery/`

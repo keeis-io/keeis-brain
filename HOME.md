@@ -7,7 +7,7 @@ in the graph.
 
 ## Branches
 
-- [[discovery/MOC|Discovery]] — market validation: hypotheses, interviews, synthesis.
+- [[discovery/MOC|Discovery]] — market validation: hypotheses, interviews, field pilot, synthesis.
 - [[meetings/MOC|Meetings]] — preparation, notes, and actions for every meeting.
 - [[business-plan/MOC|Business plan]] — the investor-reviewable plan, research through review.
 - [[projects/MOC|Projects]] — Keeis (the company) and `plates`, with their specs/architecture/canvas.

@@ -12,7 +12,9 @@ approved payload). Every intermediate output is a file a human reviews.
   (derivation templates)
 - `connections.md` — Reachable systems and the two identities (humans / bot)
 - `.claude/skills/` — Git-versioned capabilities: `derive`, `activate`, `new-project`, external ones
-- `discovery/` · `business-plan/` · `meetings/` — Pipelines (stages 01→03, human gates)
+- `discovery/` · `business-plan/` · `meetings/` — Pipelines (stages 01→03, human gates).
+  `discovery` has a second stage-02 channel, `02b_pilot` (field pilot / concierge MVP), parallel
+  to `02_interviews`; both feed `03_synthesis`.
 - `projects/` — Projects with `specs/`, `architecture/`, `canvas/`. Includes `keeis/` (the
   company as a meta-project). Code lives in its own repos.
 - `outputs/` — **Final output layer**: payloads by destination (`jira/`, `docmost/`), each

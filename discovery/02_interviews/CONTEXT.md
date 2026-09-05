@@ -1,5 +1,12 @@
 # Stage 02 — Interviews
 
+> Since 2026-09-04 this is **not the only** evidence channel for stage 02. Cold-email outreach
+> stopped converting for the consultative-sales-teams run, which now gathers evidence through
+> `../02b_pilot/` (field pilot, concierge MVP) instead. Both channels feed `../03_synthesis`.
+> Interviews remain the default channel for any new hypothesis; use this stage when the evidence
+> comes from a conversation, and `02b_pilot` when it comes from a company actually running the
+> thing.
+
 ## Inputs
 - Layer 4: `../01_hypotheses/output/<current run>`
 - Layer 3: `references/interview-guide.md`
