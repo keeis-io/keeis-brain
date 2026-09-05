@@ -1,0 +1,16 @@
+{
+  "enabledPlugins": {
+    "pm-product-discovery@pm-skills": true,
+    "pm-product-strategy@pm-skills": true,
+    "pm-market-research@pm-skills": true,
+    "pm-go-to-market@pm-skills": true
+  },
+  "extraKnownMarketplaces": {
+    "pm-skills": {
+      "source": {
+        "source": "github",
+        "repo": "phuryn/pm-skills"
+      }
+    }
+  }
+}
