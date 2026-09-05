@@ -94,3 +94,19 @@ Format: date — decision — reason — who.
   2026-08-16 entry's open flag ("needs a deliberate human call... before it reaches
   `discovery/03_synthesis`") — the call was to pause it, not promote it further. — Kendall's
   explicit call: single-front focus on the hypothesis with live signal. — Kendall.
+
+- 2026-09-04 — Replaced cold-email/call outreach with a field pilot ("piloto del piloto",
+  concierge MVP) as the Stage 02 validation channel for the consultative-sales-teams hypothesis:
+  a free one-week manual recording-and-analysis pilot with a real sales team, validating product
+  and process at once. New evidence threshold, specific to this hypothesis only: at least 3
+  completed pilots across at least 2 distinct sales profiles, with real commitment (payment or an
+  unprompted request to continue) — not general interview counts. Recorded in
+  `discovery/01_hypotheses/references/2026-09-04-plan-de-validacion-campo-ventas-consultivas.md`
+  and in the hypothesis's `Test` field
+  (`discovery/01_hypotheses/output/2026-08-26-hypothesis-consultative-sales-teams.md`). Does NOT
+  change `discovery/03_synthesis/references/validation-criteria.md` — that stays the pipeline's
+  default for hypotheses validated by interview alone; only generalize it if a future hypothesis
+  also validates by pilot. — Prompted by Roberto Solano's advice (advisor/connector, not a
+  segment interviewee — `meetings/02_notes/output/2026-09-04-notes-roberto-solano.md`): ~60 cold
+  emails yielded 5 responses, which isn't real validation ("no hay piel en el cuerpo"); a free
+  field pilot produces real behavioral commitment instead of opinion. — Kendall + Isaac.

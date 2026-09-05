@@ -22,16 +22,25 @@
 - **Riskiest assumption**: that the Costa Rican manager wants to *train*, not just *measure*. If
   the standard is to push for the monthly target without investing in team development, there's
   no friction to remove and the product has no buyer.
-- **Test**: [PENDING — not yet written. Still needed: (1) the numeric criterion — of the
-  responses that come in from the ~20 outstanding outreach emails, how many need to look like
-  Mauricio Castro's response to justify moving forward; (2) a deadline with a minimum target.
-  Neither is in this document yet.]
+- **Test**: as of 2026-09-04, the validation channel changed from cold-email interviews to a
+  field pilot ("piloto del piloto" / concierge MVP) — see
+  `../references/2026-09-04-plan-de-validacion-campo-ventas-consultivas.md`. Criterion (specific
+  to this hypothesis, doesn't change the pipeline's default in
+  `../../03_synthesis/references/validation-criteria.md`): **at least 3 completed pilots, across
+  at least 2 distinct sales profiles**, with real commitment (payment, even symbolic, or an
+  explicit unprompted request to keep using it) — a free pilot's "this has value" does not count
+  on its own.
 - **Skin-in-the-game evidence** (Savoia, *The Right It*): none obtained yet. Both data points
   below are opinion/interest signals, not commitments (no time, money, data, or letter of intent
   secured).
-- **People to contact**: ~20 outreach emails sent, awaiting response. Three responses in so far —
-  see "What we know today." [PENDING: no additional real names/organizations logged in this file
-  yet beyond the three below.]
+- **People to contact**: ~20 outreach emails sent (60 total across the company's whole outreach
+  effort, 5 responses) — this channel is **superseded, not dropped**, as of 2026-09-04 by the
+  field-pilot approach above, on Roberto Solano's explicit recommendation
+  (`../../../meetings/02_notes/output/2026-09-04-notes-roberto-solano.md`: *"Totalmente"* when
+  asked if the pilot replaces cold outreach). Active pilot targets per Vías A/B/C in the plan
+  above: an ad agency (Yasmin/Jazmín, car brand — pending Roberto's Monday confirmation) and
+  Toyota's GM (held back deliberately until a working pilot exists). Three responses from the
+  earlier email channel are still in — see "What we know today."
 
 ## What we know today
 

@@ -17,6 +17,7 @@ hypothesis both paused. No run has reached `03_synthesis` yet.
 - [[2026-08-16-competencia-por-proceso|Competition by administrative process]] — desk research backing the microenterprises hypothesis.
 - [[2026-08-16-mercado-y-oportunidad|Market and opportunity]] — desk research backing the microenterprises hypothesis.
 - [[2026-08-16-plan-de-validacion-campo|Field validation plan]] — desk research backing the microenterprises hypothesis.
+- [[2026-09-04-plan-de-validacion-campo-ventas-consultivas|Field validation plan — consultative sales teams]] — pilot-based validation plan, replaces cold-email outreach as the channel for the current hypothesis.
 - [[2026-08-16-pricing-y-viabilidad|Pricing and viability]] — desk research backing the microenterprises hypothesis.
 - [[2026-08-16-procesos-compartidos-scoring|Shared processes scoring]] — desk research backing the microenterprises hypothesis.
 
